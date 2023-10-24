@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/catagories"
+        android:text="Catagories"
         android:textColor="#F4511E"
         android:textSize="40sp"
         android:textStyle="bold"
