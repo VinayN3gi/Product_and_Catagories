@@ -25,5 +25,12 @@ object dataServices {
         Products("Yellow hoodie","$22","hoodie3"),
         Products("White hoodie","$22","hoodie4")
     )
-
+    fun catagoryType(cat:String?): List<Products> {
+        when(cat){
+            "hat"->return hatList
+            "shirt"->return shirtList
+            "hoodie"->return hoodieList
+            else->return shirtList
+        }
+    }
 }
